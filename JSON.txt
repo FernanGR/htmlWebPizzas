@@ -1,0 +1,182 @@
+﻿{
+  "#comment":  
+  "html": {
+    "@lang": "es",
+    "head": {
+      "title": "Pasta Di Pesto",
+      "#comment":  
+      "meta": [
+        {
+          "@charset": "utf-8"
+        },
+        {
+          "@name": "autor",
+          "@content": "FernandoGarciaRubio"
+        },
+        {
+          "@name": "generator",
+          "@content": "Notepad++"
+        },
+        {
+          "@name": "copyright",
+          "@content": "Fernando.com"
+        }
+      ],
+      "link": [
+        {
+          "@rel": "stylesheet",
+          "@href": "../CSS/estilo.css"
+        },
+        {
+          "@rel": "stylesheet",
+          "@href": "../CSS/estilosomos.css"
+        },
+        {
+          "@rel": "icon",
+          "@href": "../img/pizza-logo.ico",
+          "@type": "image/x-icon"
+        }
+      ]
+    },
+    "body": {
+      "div": {
+        "@id": "contenedor",
+        "nav": {
+          "div": [
+            {
+              "@id": "cabe-izq",
+              "img": {
+                "@src": "../img/titulo-pizza.jpg",
+                "@width": "45",
+                "@height": "45",
+                "@alt": "logo"
+              }
+            },
+            {
+              "@id": "cabe-der",
+              "h1": {
+                "a": [
+                  {
+                    "@href": " ../inicio.html",
+                    "#text": "INICIO"
+                  },
+                  {
+                    "@href": " ./carta.html",
+                    "#text": "CARTA"
+                  },
+                  {
+                    "@href": " ./promocion.html",
+                    "#text": "PROMOCIONES"
+                  },
+                  {
+                    "@class": "inicio",
+                    "@href": " ./somos.html",
+                    "#text": "QUIENES SOMOS"
+                  },
+                  {
+                    "@href": " ./galeria.html",
+                    "#text": "GALERIA"
+                  },
+                  {
+                    "@href": " ./contacto.html",
+                    "#text": "CONTACTO"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "header": {
+          "img": {
+            "@src": "../img/pizzaimg.png",
+            "@width": "60",
+            "@alt": "foto1"
+          },
+          "h1": "\"PIZZERÍA PASTA DI PESTO\""
+        },
+        "section": {
+          "h2": "Conócenos un poco más",
+          "br": [
+            "",
+            "",
+            ""
+          ],
+          "p": {
+            "br":  
+            "strong": "Pasta Di Pesto",
+            "#text": [
+              "La pizza en su preparación básica, es un pan plano horneado, habitualmente de forma redonda, elaborado con harina de trigo, sal, agua y levadura, cubierto con salsa de tomate y queso.",
+              "En la pizzería",
+              ", desde su primera pizzería en Marzo de 1986 y empezando como un pequeño tnegocio familiar, se empieza a labrar una buena fama bien merecida, nuestros ingredientes de primera calidad junto con un buen trato hacia nuestros clientes.",
+              "Todo casero, usando los mejores ingredientes y dejándolo el tiempo justo en el horno de leña, hasta que coja el punto. Más de 20 años intentando ofrecer las mejores pizzas de su zona.",
+              "Ven a disfrutarlo a nuestro restaurante o en tu domicilio."
+            ]
+          },
+          "figure": {
+            "img": {
+              "@src": "../img/conocenos.png",
+              "@width": "600",
+              "@alt": "conocenos"
+            }
+          },
+          "div": {
+            "@id": "wiki",
+            "p": {
+              "a": [
+                {
+                  "@href": "https://es.wikipedia.org/wiki/Pizza",
+                  "#text": "pizza"
+                },
+                {
+                  "@href": "https://es.wikipedia.org/wiki/Pizzer%C3%ADa",
+                  "#text": "pizzeria."
+                }
+              ],
+              "#text": [
+                "Aqui tiene un enlace de definición de",
+                "y otro a lo que viene siendo una"
+              ]
+            }
+          }
+        },
+        "footer": {
+          "address": {
+            "p": "Pizzeria Pasta di pesto Calle Dr. Ritori numero 17.  Madrid (03813) Tel: 965552626"
+          },
+          "div": {
+            "@id": "menuf",
+            "p": {
+              "a": [
+                {
+                  "@href": " ../inicio.html",
+                  "#text": "INICIO"
+                },
+                {
+                  "@href": " ./carta.html",
+                  "#text": "CARTA"
+                },
+                {
+                  "@href": " ./promocion.html",
+                  "#text": "PROMOCIONES"
+                },
+                {
+                  "@class": "fin",
+                  "@href": " ./somos.html",
+                  "#text": "QUIENES SOMOS"
+                },
+                {
+                  "@href": " ./galeria.html",
+                  "#text": "GALERIA"
+                },
+                {
+                  "@href": " ./contacto.html",
+                  "#text": "CONTACTO"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

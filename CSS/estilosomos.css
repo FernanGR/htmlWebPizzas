@@ -1,0 +1,61 @@
+ section{
+		 
+	 
+		height: 735px;
+		width: 100%;
+ }
+ 
+ section p {
+	font-size:20px;
+
+	}
+ section img{					/*imagen centrada */
+	margin:auto;
+	display:block;
+	
+	-webkit-box-shadow:  0px 0px 7px 0px rgb(0,0,0);			/*sombra imagenes */
+	-moz-box-shadow:  0px 0px 7px 0px rgb(0,0,0);
+	-o-box-shadow: 0px 0px 7px 0px rgb(0,0,0);
+	box-shadow: 0px 0px 7px 0px rgb(0,0,0);
+ }
+ 
+
+ #wiki {
+	margin-top:20px;
+  }
+	
+ #wiki a{						/* enlace exterior */
+  
+	 border:0px;
+	 background-image: url("../img/fondomenu.jpg");
+	 color:black;
+	 text-decoration:none;
+	 font-size:20px;
+ }
+
+ #wiki a:Hover{				/*   al pasar raton, enlace exterior */
+	color: PowderBlue;
+	text-decoration: none;
+	
+ }
+ 
+ 	
+ nav li {
+    text-decoration:none;
+     list-style:none;
+	 float:rigth;
+   
+    }
+ 
+#m1{
+	 position: aboslute;
+	 margin-left:900px;
+	 margin-top: 0px;
+ }
+ #m2{
+	 position: aboslute;
+	 margin-left:-120px;
+	 margin-top: 40px;
+ }
+	
+ 

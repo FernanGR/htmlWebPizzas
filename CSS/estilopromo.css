@@ -1,0 +1,112 @@
+	 
+ section  {
+ 
+	height: 555px;
+	width: 100%;
+ 
+		}
+ 
+
+.promo1{				/*promocion*/
+ 
+	position: absolute;
+	left: 150px;
+	top:100px;
+	nimation-fill-mode: forwards;
+	animation-timing-function: linear;
+	animation:  promo1 8s;
+}
+.promo2{					/*promocion*/
+ 
+	 position:absolute;
+	 left: 750px;
+	 top: 150px;
+	animation-fill-mode: forwards;
+	animation-timing-function: linear;
+	animation:  promo2 8s;
+	}
+	 
+#contenidofinal{
+
+	position:relative;
+	margin-top: 400px;
+	clear:both;
+	font-size:15px;
+	font-family: Arial;
+	text-align:center;
+	}
+ 
+  @keyframes promo1 {
+  0%   { left:150px; top:100px; }
+ 50%  {  left:600px; top:100px; transform:rotate(45deg); }
+100%{ left:150px; top:100px;    }
+  
+  
+  
+}
+
+  @keyframes promo2 {
+  0%   { left:750px; top:150px;}
+  50%  { left:200px; top:150px; transform: rotate(-40deg);}
+  100% { left:750px; top:150px; }
+  
+  
+}
+
+section img{
+	-webkit-box-shadow:  0px 0px 7px 0px rgb(0,0,0);
+	-moz-box-shadow:  0px 0px 7px 0px rgb(0,0,0);
+	-o-box-shadow: 0px 0px 7px 0px rgb(0,0,0);
+	box-shadow: 0px 0px 7px 0px rgb(0,0,0);
+	}
+
+	
+ nav li {
+    text-decoration:none;
+     list-style:none;
+	 float:rigth;
+   
+    }
+ 
+#m1{
+	 position: aboslute;
+	 margin-left:900px;
+	 margin-top: 0px;
+ }
+ #m2{
+	 position: aboslute;
+	 margin-left:-120px;
+	 margin-top: 40px;
+ }
+
+ 
+#banner{
+  position: absolute;
+  width: 15%;
+  height: 35%;
+	  border-radius:15px;	
+	  background-image: url("../banner/img1.png");
+	background-color:#cc0000;
+	color:black;
+	font-family:arial;
+	font-size:30px;
+	text-align:right;
+	margin-left:1100px;
+	margin-top: 280px;
+ 
+	 
+	text-shadow: 4px 4px red;
+	animation: appearDisappear 3000ms ease-in infinite alternate backwards;
+	
+}
+
+
+@keyframes appearDisappear {
+	0%, 100% {
+		opacity: 0;
+	}
+	20%, 80% {
+		opacity: 1;
+	}
+}
+ 

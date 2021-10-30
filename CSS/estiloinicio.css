@@ -1,0 +1,78 @@
+ 
+ 
+ section  {
+	height: 980px;
+	 
+		}
+ 	 
+ section img {
+	display:block;
+	margin-left:100px;
+}  
+
+  nav li {
+    text-decoration:none;
+     list-style:none;
+	 float:rigth;
+   
+    }
+ 
+#m1{
+	 position: aboslute;
+	 margin-left:900px;
+	 margin-top: 0px;
+ }
+ #m2{
+	 position: aboslute;
+	 margin-left:-120px;
+	 margin-top: 40px;
+ }
+	
+@keyframes portada {
+  0%   { left:0px; top:0px;}
+  25%  {  left:600px; top:0px; }
+  50%  { left:200px; top:0px;}
+  75%  {  left:400px; top:0px;}
+  100% { left:300px; top:0px; transform:rotate(360deg); }
+}
+
+/* El elemento para aplicar animacion*/
+section img {
+ 
+  position: relative;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-name: portada;
+  animation-duration: 10s;
+  
+  
+	-webkit-box-shadow:  0px 0px 7px 0px rgb(0,0,0);
+	-moz-box-shadow:  0px 0px 7px 0px rgb(0,0,0);
+	-o-box-shadow: 0px 0px 7px 0px rgb(0,0,0);
+	box-shadow: 0px 0px 7px 0px rgb(0,0,0);
+}
+
+section p{
+	font-size:30px; 
+	text-align:center;
+}
+
+  
+#horario{
+	font-size:18px;
+	text-align:center;
+	margin-left: 43%;
+	}
+ 
+ 
+section a {
+
+	background-image: url("../img/fondomenu.jpg");	
+    
+	border: 0px;
+	margin-left:92%;
+ }
+ 
+ section a:hover{
+	color:blue;
+ }

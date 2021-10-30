@@ -1,0 +1,74 @@
+ 
+section img:hover{
+	width:300px;
+	height:175px;
+	transition:  width 2s, height 3s; 
+	-moz-transition:  width 2s, height 3s; 
+	-webit-transition:  width 2s, height 3s; 
+	-o-transition:  width 2s, height 3s; 
+}
+
+section li:first-child {
+	list-style-type:none;
+	color: red;
+	 
+	 }
+	 
+section p:first-letter{
+	 
+	font-size: 30px;
+}	 
+
+section{
+	position: relative;
+	top: 50px;
+	height: 1925px; 
+	padding-left:20px;
+	}
+		
+h4 {
+	font-weight:normal;
+ 
+}
+		
+section a {
+
+	background-image: url("../img/fondomenu.jpg");	
+    
+	border: 0px;
+	margin-left:92%;
+ }
+ 
+ 
+ section a:hover{
+	color:blue;
+ }
+		
+figcaption{
+	font-size:20px;
+	}
+	
+section p{
+	font-size: 20px;
+}   
+
+
+	
+ nav li {
+    text-decoration:none;
+     list-style:none;
+	 float:rigth;
+   
+    }
+ 
+#m1{
+	 position: aboslute;
+	 margin-left:900px;
+	 margin-top: 0px;
+ }
+ #m2{
+	 position: aboslute;
+	 margin-left:-120px;
+	 margin-top: 40px;
+ }
+	

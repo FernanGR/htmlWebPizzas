@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+	<head>
+		<title>Pasta Di Pesto</title>					 <!-- Título en el navegador -->
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="../CSS/estilo.css" />	 <!-- Para que funcione el CSS -->
+		<link rel="stylesheet" href="../CSS/estilocontacto.css"  />	 <!-- Para que funcione el CSS -->
+ 		<link rel="icon" href="../img/pizza-logo.ico" type="image/x-icon"/>		<!-- pavicon, logo de html -->
+		<script src="../js/contactajs.js"/></script>
+		<script src="../js/desplegable.js"/></script>
+		<script src="../js/controlC.js"/></script>
+		<meta name="autor" content="FernandoGarciaRubio" /> 			<!-- metas -->
+ 		<meta name="generator" content="Notepad++" />
+ 		<meta name="copyright" content="Fernando.com" />
+	</head>
+	
+	<body>
+		<div id="contenedor">
+			<nav>
+				<div  id= "cabe-izq"> 
+					<img src="../img/titulo-pizza.jpg" width="45" height="45" alt="logo" />					
+				</div>
+				<div  id= "cabe-der">
+					<h1> <a  href=" ../inicio.html">INICIO</a>		
+					<a href=" ./carta.html">CARTA</a> 	
+					<a href=" ./promocion.html">PROMOCIONES</a>			
+					<a href=" ./somos.html">QUIENES SOMOS</a>		
+					<a href=" ./galeria.html">GALERIA</a> 	
+ 
+					 
+					<a class="inicio"  id="mcontacta" href="#">CONTACTANOS</a><i class="contactos"></i>
+					<ul id = "submenu">
+						<li id="m1">  <a class="inicio" href=" ./contacto.html">CONTACTO</a>  </li>
+						<li id="m2"><a  href=" ./contactoVip.html">CONTACTO VIP</a></h1></li>
+						 
+					</ul> 
+		 
+				</div>
+			</nav>
+			
+			<header>
+				 <div id="color">
+					<img src="../img/pizzaimg.png" width="60" alt="foto1"/> 
+					<h1>"PIZZERÍA PASTA DI PESTO"</h1> 
+				 </div>
+			</header>
+			
+			<section>
+							   
+				<div id="caja">
+					<h2> CONTÁCTANOS</h2>
+					<br/>
+					<form id="formulariocontacto" method="get" action="http://www.formular-chef.com/Formular-Chef.cgi">   <!-- para crear formulario -->
+					
+					<div>				<!-- para enviar el email-->
+						<input type="hidden" name="recipient" value="tibofgr@gmail.com" />
+					</div>
+					 
+						 <div>
+							<label for="nombre"><strong>Nombre:	*</strong></label> 		<!-- campo texto para nombre -->
+							<input type="text" id="nombre" name="Nombre"  size="30" maxlength="50" autofocus required /> 
+							<br/>  
+						</div>
+						<div>
+							<label for="apellido"><strong>Apellidos: *</strong></label> 		<!-- campo texto para nombre -->
+							<input type="text" id="apellido" name="apellido"  size="30" maxlength="50" required /> 
+							<br/>  
+						</div>
+						
+						<div>
+							<label for="email"><strong>Email: *</strong> </label> 	<!-- campo texto para nombre -->
+							<input type="email" id="email" name="email"  size="30" maxlength="50" required />
+							<br/>  
+						</div>
+						
+						<div>
+							 <label for="tel"><strong>Número de teléfono:</strong></label>
+							<input type="tel" id="tel"  name="tel" size="12" placeholder="965.639.695"
+							pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}"/>			
+						</div>
+							
+						<div>
+							<label for="url"><strong>Web profesional: </strong></label>
+							<input type="url"  id="url" name="url" placeholder = "http://ejemplo.com"/>
+						</div>
+								
+						<div>
+							<strong>¿Qué tipo de consulta quieres? </strong><br/>				<!-- checkbox a elegir entre dos. puedes pulsar las dos o ninguna-->
+							<label><input type="checkbox" name="sobremesa" /> <strong>Informativa </strong> <br/></label>
+							<label><input type="checkbox" name="portatil" /> <strong>Negocios </strong> <br/></label>
+						</div>
+						
+						<div>
+							<label for="estudio"><strong>¿Qué le ha parecido la página?</strong></label>
+							<select id="estudio" name="estudio">				<!-- valor a seleccionar de unas opciones-->
+								<option  value="Esta muy bien." selected="selected"> Esta muy bien </option>
+								<option value="No esta mal, pero podria mejorarse"> No está mal, pero podría mejorarse</option>
+								<option value="Le falta más informacion"> Le falta más información </option>
+								<option value="Deja mucho que desear"> Deja mucho que desear </option>
+							</select> <br/> 
+						</div>
+						
+						<div>
+							<label for="contrasenya"> <strong> Elige un nuevo password para acceder a su consulta: * 	</strong> </label>		<!-- contraseña -->
+							<input type="password" id="contrasenya" name ="contrasenya" size="10" autocomplete = "off" required pattern = "\S{6,}"/>
+							<br/> 
+							<p>(han de ser al menos 6 caracteres)</p>
+							
+						</div>
+						
+						<div>
+							<label for="fichero"> <strong> Añade un archivo: </strong> </label> 
+							<input type="file" id="fichero" name="archivo"  size="100"   /> <!-- añadir archivo -->
+							<br/> 
+						</div>
+						
+						<div>
+							<strong>¿Le gustaría recibir publicidad sobre próximas promociones? </strong>					<!-- seleccion a si o no, siempre se queda una, de primeras hay una marcada ("si") -->
+							 <label><input type="radio" name="Recibir publicidad" value="No"/><strong> No  </strong></label>
+							 <label><input type="radio" name="Recibir publicidad" value="Si" checked="checked" /> <strong>Si</strong> </label><br/> 
+						</div>
+						
+						<div>
+							<label for="texto"> <strong> Añada lo que considere para su consulta: </strong> </label> <br/>				<!--cuadro de texto-->
+							<textarea id="texto" name="texto" rows="4" cols="50"> </textarea> <br/>
+						</div>
+						
+						<div>
+							<input type="reset" id="reset" value="Vaciar el formulario" />					<!--boton reseteo-->
+							<button type="submit" id="submit" value="ENVIAR" > ENVIAR </button><br/>					<!--boton enviar-->
+							 
+						 <p><strong> Los campos con símbolo "*" son campos obligatorios.  </strong></p>
+						</div>
+					
+					 
+					</form>
+					<br/>
+					
+						<p> <strong>También puede contactarnos por email directamente, pulse el icono.</strong></p><br/> <a class="mailto" href="mailto:tibofgr@gmail.com"> <img src="../img/email.jpg" 
+						width="80" alt="email"/></a>
+				</div>
+			</section>
+			<footer>
+				<address>
+					<p>Pizzería Pasta di pesto
+						Calle Dr. Ritori numero 17.  Madrid (03813)
+						Tel: 965552626
+					</p>
+				</address>
+				<div id = "menuf">
+					<p><a  href=" ../inicio.html"  >INICIO</a>		<a  href=" ./carta.html">CARTA</a> 		<a href=" ./promocion.html">PROMOCIONES</a>		
+					<a href=" ./somos.html">QUIENES SOMOS</a>		<a href=" ./galeria.html">GALERIA</a> 		<a class="fin" href=" ./contacto.html">CONTACTO</a>  </p>
+				</div>
+			</footer>
+		</div>
+	</body>
+	
+</html>

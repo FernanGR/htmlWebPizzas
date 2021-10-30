@@ -1,0 +1,56 @@
+ 
+#contenedor {
+		position:relative;
+	 
+		}
+		
+section{
+	position:relative;
+	background-image: url("../img/fondocont.jpg");   /*fondo cotenido- */
+	height:680px;
+	}
+	
+#caja{
+	
+	position: relative; 
+	top: 20px;	 
+	left:30%;
+	width: 500px;
+	height: 570px;
+	border-radius:50px;							/*borde redondeado*/
+	border:  solid 8px #DEB887;
+	background-image: url("../img/fondomenu.jpg");
+	padding-bottom:15px;
+	padding-left: 10px;
+	padding-top: 25px;
+ 
+	}
+	
+section a{
+		text-decoration: none;
+		border:0px;
+		padding:5px;
+		margin-left: 35%;
+		background-image: url("../img/fondomenu.jpg");
+		 
+}	
+
+input:focus:valid{background-color:LightGreen;}
+
+	
+ nav li {
+    text-decoration:none;
+     list-style:none;
+	 float:rigth;
+   
+    }
+ #m1{
+	 position: aboslute;
+	 margin-left:895px;
+	 margin-top: 0px;
+ }
+ #m2{
+	 position: aboslute;
+	 margin-left:-120px;
+	 margin-top: 40px;
+ }

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+	<head>
+		<title>Pasta Di Pesto</title>					 <!-- Título en el navegador -->
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="../CSS/estilo.css" />	 <!-- Para que funcione el CSS -->
+		<link rel="stylesheet" href="../CSS/estilocontactoVip.css"  />	 <!-- Para que funcione el CSS -->
+ 		<link rel="icon" href="../img/pizza-logo.ico" type="image/x-icon"/>		<!-- pavicon, logo de html -->
+		<script src="../js/contactaVipjs.js"/></script>
+		<script src="../js/desplegable.js"/></script>
+		<script src="../js/controlC.js"/></script>
+		<script src="../js/objetosjs.js"/></script>
+		<meta name="autor" content="FernandoGarciaRubio" /> 			<!-- metas -->
+ 		<meta name="generator" content="Notepad++" />
+ 		<meta name="copyright" content="Fernando.com" />
+	</head>
+	
+	<body>
+		<div id="contenedor">
+			<nav>
+				<div  id= "cabe-izq"> 
+					<img src="../img/titulo-pizza.jpg" width="45" height="45" alt="logo" />					
+				</div>
+				<div  id= "cabe-der">
+					<h1> <a  href=" ../inicio.html">INICIO</a>		
+					<a href=" ./carta.html">CARTA</a> 	
+					<a href=" ./promocion.html">PROMOCIONES</a>			
+					<a  href=" ./somos.html">QUIENES SOMOS</a>		
+					<a  href=" ./galeria.html">GALERIA</a> 	
+	 
+				 
+				 <a class="inicio"  id="mcontacta" href="#">CONTACTANOS</a><i class="contactos"></i>
+				<ul id = "submenu">
+					<li id="m1">  <a href=" ./contacto.html">CONTACTO</a>  </li>
+					<li id="m2"><a class="inicio"  href=" ./contactoVip.html">CONTACTO VIP</a></h1></li>
+					 
+				</ul> 
+
+ 
+				</div>
+			</nav>
+			
+			<header>
+				 <div id="color">
+					<img src="../img/pizzaimg.png" width="60" alt="foto1"/> 
+					<h1>"PIZZERÍA PASTA DI PESTO"</h1> 
+				 </div>
+			</header>
+			
+			<section>
+							   
+				<div id="objetos">
+					<table class = "table" id = "tabla">
+					<thead class = "thead-inverse">
+						<tr>
+							<th>Apodo</th>
+							<th>Email</th>
+							<th>Teléfono</th>
+						</tr>
+						</thead>
+					</table>
+									
+					
+				</div>
+				<div id="caja"  >
+					<h2> CONTACTOS VIP</h2>
+					<br/>
+					<form id="formulariocontacto" method="get" action="http://www.formular-chef.com/Formular-Chef.cgi">   <!-- para crear formulario -->
+					
+					<div>				<!-- para enviar el email-->
+						<input type="hidden" name="recipient" value="tibofgr@gmail.com" />
+					</div>
+					 
+						 <div>
+							<label for="nombre"><strong>Apodo Vip:	*</strong></label> 		<!-- campo texto para nombre -->
+							<input type="text" id="nombre" name="Nombre"  size="30" maxlength="50" autofocus   /> 
+							<p>  <span id="vapodo"></span></p>
+							<br/>  
+						</div>
+ 
+						<div>
+							<label for="email"><strong>Email: *</strong> </label> 	<!-- campo texto para nombre -->
+							<input type="email" id="email" name="email"  size="30" maxlength="50"   />
+							<p>  <span id="vemail"></span></p>
+							<br/>  
+						</div>
+						
+						<div>
+							 <label for="tel"><strong>Número de teléfono:</strong></label>
+							<input type="tel" id="tel"  name="tel" size="12" placeholder="965.639.695"
+							pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}"/>			
+							<p>  <span id="vtel"></span></p>
+						</div>
+						<div class="fila_formulari">
+							<div class="etiqueta"><strong>¿Quiere que le contactemos por teléfono?</strong>
+								 
+							</div>
+							<div class="camp">
+								<input type="radio" value="si" name="pregunta" id="pregunta_si"/> <label for="pregunta_si">SI</label>
+								<input type="radio" value="no" name="pregunta" id="pregunta_no"/> <label for="pregunta_no">NO</label>
+								<input type="radio" value="nsnc" name="pregunta" id="pregunta_nsnc"/> <label for="pregunta_nsnc">NS/NC</label>
+								<p>  <span id="vradio"></span></p>
+							</div>
+							  
+						</div>	
+						
+  
+						<div>
+							<label for="fichero"> <strong> Añade un archivo: (solo .pdf) </strong> </label> 
+							<input type="file" id="fichero" name="archivo"  size="100"   /> <!-- añadir archivo -->
+							<p>  <span id="vfixer"></span></p>
+							<br/> 
+						</div>
+		 
+						<div>
+							<label for="texto"> <strong> Añada comentarios adicionales:(50 caracteres max) </strong> </label><p><span id="num"></span></p>  			<!--cuadro de texto-->
+							<textarea id="texto1" name="texto" rows="4" cols="50"></textarea> <br/>
+							 <p>  <span id="vtext"></span></p>
+							<input type="button" value="Reset Text" id="botoResetTextArea" />
+						</div>
+						 
+			 
+						<div>
+						
+							<input type="reset" id="reset" value="Vaciar el formulario" />					<!--boton reseteo-->
+							<input type="button" value="Agregar" id="btAgregar" />							<!--boton agrega objetos-->
+							<input type="button" value="Borrar Todo" id="btBorrado" />						<!--boton borrado objetos-->
+							 <input type="button" value="Enviar" id="botoenviar" />
+						 <p><strong> Los campos con símbolo "*" son campos obligatorios.  </strong></p>
+						</div>
+					
+					 
+					</form>
+					<br/>
+					
+						<p> <strong>También puede contactarnos por email directamente, pulse el icono.</strong></p><br/> <a class="mailto" href="mailto:tibofgr@gmail.com"> <img src="../img/email.jpg" 
+						width="80" alt="email"/></a>
+				</div>
+			</section>
+			<footer>
+				<address>
+					<p>Pizzería Pasta di pesto
+						Calle Dr. Ritori numero 17.  Madrid (03813)
+						Tel: 965552626
+					</p>
+				</address>
+				<div id = "menuf">
+					<p><a  href=" ../inicio.html"  >INICIO</a>		<a  href=" ./carta.html">CARTA</a> 		<a href=" ./promocion.html">PROMOCIONES</a>		
+					<a href=" ./somos.html">QUIENES SOMOS</a>		<a href=" ./galeria.html">GALERIA</a> 		<a class="fin" href=" ./contacto.html">CONTACTO</a>  </p>
+				</div>
+			</footer>
+		</div>
+	</body>
+	
+</html>

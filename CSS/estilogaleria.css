@@ -1,0 +1,105 @@
+ 
+ section  {
+ 
+	height: 1390px;
+	width: 100%;
+  
+		}
+ 
+.video{
+	margin-top:20px;
+	border-radius: 50px;
+	width:550px; 
+	height:400px;
+ 
+	}
+	
+ .video2{
+	margin-top:20px;
+    margin-left: 50px;
+	border-radius: 50px;
+ 
+	width:450px; 
+	height:350px;
+ 
+	}
+	
+ nav li {
+    text-decoration:none;
+     list-style:none;
+	 float:rigth;
+   
+    }
+ 
+#m1{
+	 position: aboslute;
+	 margin-left:900px;
+	 margin-top: 0px;
+ }
+ #m2{
+	 position: aboslute;
+	 margin-left:-120px;
+	 margin-top: 40px;
+ }
+	
+	
+	
+section video{													/*transiciones de los videos */
+ 	transition:  transform 2s linear; 
+	-moz- transition:  transform 2s linear; 
+	-webit- transition:  transform 2s linear; 
+	-o- transition:  transform 2s linear; 
+}
+	
+section video:hover {
+	
+	transform:skew(-10deg);
+	-moz-transform: skew(-10deg);
+	-webit-transform: skew(-10deg);
+	-o-transform:  skew(-10deg);
+	}
+
+figure{
+	margin-top:50px;
+	margin-left:130px;
+		
+	} 
+		
+section a {
+
+	background-image: url("../img/fondomenu.jpg");	
+	border: 0px;
+	margin-left:92%;
+ }
+ section a:hover{
+	color:blue;
+ }
+ 
+ .tabla td {
+ width:550px;
+ height: 300px;
+	 
+ }
+ 
+ section img{								/*transiciones de las fotos */
+ 	transition:  transform 2s linear; 
+	-moz- transition:  transform 2s linear; 
+	-webit- transition:  transform 2s linear; 
+	-o- transition:  transform 2s linear; 
+	
+	-webkit-box-shadow: 0px 0px 8px 5px rgb(0,0,0);			/*shadow en las imagenes */
+	-moz-box-shadow:  0px 0px 8px 5px rgb(0,0,0);
+	-o-box-shadow: 0px 0px 8px 5px rgb(0,0,0);
+	box-shadow: 0px 0px 8px 5px rgb(0,0,0);
+}
+ 
+ section img:hover {
+	
+	transform:skew(15deg);
+	-moz-transform: skew(15deg);
+	-webit-transform: skew(15deg);
+	-o-transform:  skew(15deg);
+	}
+ 
+
+ 
